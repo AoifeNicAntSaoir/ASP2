@@ -18,7 +18,7 @@ namespace ASP2
         [TestCase]
         public void testSubtract()
         {
-            int expected = 10;
+            int expected = 50;
 
             ASP2.Function f = new ASP2.Function();
 
