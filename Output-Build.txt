@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: ASP2, Configuration: Debug Any CPU ------
+1>  ASP2 -> C:\Users\seamus\Documents\GitHub\ASP2\ASP2\bin\ASP2.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
