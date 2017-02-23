@@ -9,9 +9,7 @@ namespace ASP2
         public void add()
         {
             int expected = 10;
-
             ASP2.Function f = new ASP2.Function();
-
             Assert.AreEqual(f.add(5,5), expected);
         }
 
@@ -19,9 +17,7 @@ namespace ASP2
         public void testSubtract()
         {
             int expected = 10;
-
             ASP2.Function f = new ASP2.Function();
-
             Assert.AreEqual(f.subtract(20, 10), expected);
         }
 
