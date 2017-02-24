@@ -5,11 +5,13 @@
 	<meta charset="utf-8" />
 </head>
 <body>
-    <h1 style="background-color: lightseagreen;">Hello World</h1>
+    <h1 style="background-color: crimson;">Hello World</h1>
     <h3>Aoife Sayers</h3>
     <ul>
         <li>Teamcity
             <ol>
+                <li>CI Server</li>
+                <li>SQL Server & DB dependencey</li>
                 <li>MSBuild - Require MSBuild Tools & Octopack to create build artifacts</li>
                 <li>NUnit Tests for add() and subtract()</li>
                 <li>Octopus Deploy - Push Packages</li>
@@ -18,21 +20,41 @@
                 <li>Promote Release</li>
             </ol>
         </li>
-        <li>Octopus
-            <ol>
-                <li>Steps above</li>
+        <li>Octopus Deploy
+            <ul>
+                <li>SW: Octopus Deploy Server & Tentacle Managers (deployment targets)</li>
+                <li>.NET</li>
+                <li>Deploying to remote machines securely</li>
+                <li>Integrated HSQL - Hypersonic SQL DB</li>
+                <li>Environment specific configuration using variables</li>
+                <li>Variables for IIS bindings in different environments  
+                   <ul>
+                            <li>Staging environment scope- #{hostName} = "abc.com"</li>
+                            <li>Production environment scope - #{hostName} = "xyz.com"</li>
+                  </ul>
+                </li>
                 <li>Trigger from Staging Environment to Production Environment</li>
-            </ol>
-
+                <li>Packages supported
+                    <ul>
+                        <li>Internal package feed - formats supported - .nupkg .zip, .tar, .gzip</li>
+                        <li>External package feed - TC package feed</li>
+                    </ul>
+                </li>
+                <li>Octopus Deploy Cost...
+                    <ul>
+                        <li>Community Editions - 5 projects X 10 target machines - Free</li>
+                        <li>Professional - 20 users x 20 projects x 20 target machines - $700</li>
+                        <li>Team - 60 users x 60 projects x 60 target machines - $2,000</li>
+                        <li>Enterprise - Unlimited users x projects x target machines - $5,000</li>
+                        <li>High Availability - Unlimited users x projects x target machines x multiple nodes -  $20,000<li>
+                    </ul>
+                </li>
+            </ul>
         </li>
-  
     </ul>
 
     <p>Adding some more stuff</p>
-    <p>ASP.NET - Active Server Pages</p>
-    <a href="WebForm1.aspx">My ASP.Net Page</a>
-    <p>My ASP.Net page isn't working at the moment...</p>
-    <p>Today is Wednesday</p>
+    <p>Today is Thursday</p>
 
  
 
